@@ -34,29 +34,47 @@ int main(){
                       }
     
     //dichiarare il tipo di pedine
-    for(int a=0;a<=1;a++){
-                      for(int b=0;b<=15;b++){
-                              switch(b){
-                                        case 0: pedina[a][b].tipo='T';break;
-                                        case 1: pedina[a][b].tipo='C';break;
-                                        case 2: pedina[a][b].tipo='A';break;
-                                        case 3: pedina[a][b].tipo='D';break;
-                                        case 4: pedina[a][b].tipo='R';break;
-                                        case 5: pedina[a][b].tipo='A';break;
-                                        case 6: pedina[a][b].tipo='C';break;
-                                        case 7: pedina[a][b].tipo='T';break;
-                                        case 8: pedina[a][b].tipo='P';break;
-                                        case 9: pedina[a][b].tipo='P';break;
-                                        case 10: pedina[a][b].tipo='P';break;
-                                        case 11: pedina[a][b].tipo='P';break;
-                                        case 12: pedina[a][b].tipo='P';break;
-                                        case 13: pedina[a][b].tipo='P';break;
-                                        case 14: pedina[a][b].tipo='P';break;
-                                        case 15: pedina[a][b].tipo='P';break;
-                                        
-                                        }
-                              }
+    for(int a=0,b=0;b<=15;b++){
+            switch(b){
+                      case 0: pedina[a][b].tipo='T';break;
+                      case 1: pedina[a][b].tipo='C';break;
+                      case 2: pedina[a][b].tipo='A';break;
+                      case 3: pedina[a][b].tipo='D';break;
+                      case 4: pedina[a][b].tipo='R';break;
+                      case 5: pedina[a][b].tipo='A';break;
+                      case 6: pedina[a][b].tipo='C';break;
+                      case 7: pedina[a][b].tipo='T';break;
+                      case 8: pedina[a][b].tipo='P';break;
+                      case 9: pedina[a][b].tipo='P';break;
+                      case 10: pedina[a][b].tipo='P';break;
+                      case 11: pedina[a][b].tipo='P';break;
+                      case 12: pedina[a][b].tipo='P';break;
+                      case 13: pedina[a][b].tipo='P';break;
+                      case 14: pedina[a][b].tipo='P';break;
+                      case 15: pedina[a][b].tipo='P';break;
                       }
+            }
+            
+    for(int a=1,b=0;b<=15;b++){
+            switch(b){
+                      case 0: pedina[a][b].tipo='t';break;
+                      case 1: pedina[a][b].tipo='c';break;
+                      case 2: pedina[a][b].tipo='a';break;
+                      case 3: pedina[a][b].tipo='d';break;
+                      case 4: pedina[a][b].tipo='r';break;
+                      case 5: pedina[a][b].tipo='a';break;
+                      case 6: pedina[a][b].tipo='c';break;
+                      case 7: pedina[a][b].tipo='t';break;
+                      case 8: pedina[a][b].tipo='p';break;
+                      case 9: pedina[a][b].tipo='p';break;
+                      case 10: pedina[a][b].tipo='p';break;
+                      case 11: pedina[a][b].tipo='p';break;
+                      case 12: pedina[a][b].tipo='p';break;
+                      case 13: pedina[a][b].tipo='p';break;
+                      case 14: pedina[a][b].tipo='p';break;
+                      case 15: pedina[a][b].tipo='p';break;
+                      }
+            }
                       
     //stampa a schermo
     char casella[8][8]={(char)32};//spazio vuoto
